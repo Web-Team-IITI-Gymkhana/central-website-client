@@ -1,0 +1,112 @@
+/* styles/HeroSection.module.css */
+.hero {
+    position: relative;
+    margin-top: 120px;
+    margin-left: 5%;
+    margin-right: 5% ;
+    height: 800px; /* Adjust the height as needed */
+    background: url('/hero.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Adjust text color */
+    border-radius: 40px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Adjust overlay color and opacity */
+  }
+  
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 15%;
+    
+  }
+  
+  .titleContainer {
+    background-color: #4178E3; /* Adjust the background color */
+    padding: 10px;
+    border-radius: 30.5px; 
+    /* position: absolute;
+    top: 20%;
+    left: 15%; */
+  }
+   
+  
+  .title {
+    margin: 0;/* Adjust the font size */
+    @apply 2xl:text-[32px] sm:text-[32px] text-[32px] font-medium;
+  }
+
+  .textContainer1{
+    display: grid;
+    align-items: flex-start;
+  }
+
+  .subTitleContainer {
+    
+    padding: 10px;
+    border-radius: 30.5px; 
+    width: fit-content;
+  }
+
+  .subTitle {
+    @apply 2xl:text-[128px] sm:text-[88px] text-[32px] font-semibold;
+    margin: 0;
+  }
+
+
+   .textContainer {
+    @apply 2xl:text-[16px] sm:text-[16px] text-[16px] font-light;
+    text-align: left;
+    
+   
+    
+  }
+  
+  .socialIcons {
+    position: absolute;
+    flex-direction: column;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+  }
+  
+  .socialIcons a {
+    margin-right: 10px;
+  }
+  
+  .socialIcons img {
+    width: 40px; /* Adjust the size of your social media icons */
+    height: 40px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .title {
+      font-size: 24px; /* Adjust font size for screens wider than 768px */
+    }
+
+  
+    .textContainer p {
+      font-size: 1.2em; /* Adjust font size for screens wider than 768px */
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .title {
+      font-size: 32px; /* Adjust font size for screens wider than 1024px */
+    }
+  
+    .textContainer p {
+      font-size: 1.5em; /* Adjust font size for screens wider than 1024px */
+    }
+  }
