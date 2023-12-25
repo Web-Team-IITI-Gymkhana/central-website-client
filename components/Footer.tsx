@@ -11,9 +11,9 @@ const [youtube, setyoutube] = useState('#')
 
   return (
     <>
-      <div  className='relative bottom-0.5 h-60 w-full bg-[#121212] text-white border-b-8 border-black p-2 '  >
-        <h1 className='text-center text-3xl mt-2'>Student`s Gymkhana IIT Indore</h1>
-        <p className='text-center mt-4 text-sm font-thin'>Student`s Gymkhana IIT Indore Welcomes you!
+      <div  className='relative bottom-0.5 h-60 w-full bg-[#121212] text-white border-b-8 border-black p-2 max-[280px]:h-72'  >
+        <h1 className='text-center text-3xl mt-2 font-bold'>Student Gymkhana IIT Indore</h1>
+        <p className='text-center mt-4 text-sm font-thin'>Student Gymkhana IIT Indore Welcomes you!
         </p>
         <p className='text-center mt-1 text-sm font-thin'>
           This is xyz club IIT Indore
