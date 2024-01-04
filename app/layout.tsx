@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero/Hero'
+import Events from '@/components/Events/Events'
 import Members from '@/components/Members/Members'
 export const metadata: Metadata = {
   title: 'Central Website',
@@ -23,6 +24,7 @@ export default function RootLayout({
         {children}
         </main>
         <Hero />
+        <Events />
         <Members/>
         <Footer />
       </body>
