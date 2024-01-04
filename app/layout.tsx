@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Contact from '@/components/Contact'
+
 import Hero from '@/components/Hero/Hero'
 import Events from '@/components/Events/Events'
 import Members from '@/components/Members/Members'
@@ -26,6 +28,7 @@ export default function RootLayout({
         <Hero />
         <Events />
         <Members/>
+        <Contact/>
         <Footer />
       </body>
 
