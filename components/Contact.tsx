@@ -14,7 +14,7 @@ const contact = () => {
           Contact Us
         </div>
 
-        <div id='contact-box' className='mt-8 mb-16 flex flex-column flex-wrap px-2 py-2 m-auto bg-white border-2 rounded-xl shadow-md text-xl md:w-[40rem] lg:w-[46.8rem] xl:w-[60rem] xl:w-[78.1rem]' style={{ maxWidth: '95%' }}>
+        <div id='contact-box' className='mt-8 mb-16 flex flex-column flex-wrap px-2 py-2 m-auto bg-white border-2 rounded-xl shadow-md text-xl md:w-[40rem] lg:w-[46.8rem]  xl:w-[78.1rem]' style={{ maxWidth: '95%' }}>
          
           <div className=' ml-4 p-2 '>
 
