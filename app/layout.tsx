@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
 
 import Hero from '@/components/Hero/Hero'
+import Events from '@/components/Events/Events'
 import Members from '@/components/Members/Members'
 export const metadata: Metadata = {
   title: 'Central Website',
@@ -25,6 +26,7 @@ export default function RootLayout({
         {children}
         </main>
         <Hero />
+        <Events />
         <Members/>
         <Contact/>
         <Footer />

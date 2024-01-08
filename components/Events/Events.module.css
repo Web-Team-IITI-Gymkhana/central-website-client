@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+#headingCapsule{
+    border-radius: 116.5px;
+    background: #FFF;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+#heading{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#moreEvents{
+    border-radius: 20px;
+    background: #FFF;
+}
+
+#seeMore{
+    color: #4178E3;
+    font-family: Inter;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
