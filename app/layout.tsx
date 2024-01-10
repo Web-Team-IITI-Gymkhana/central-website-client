@@ -6,6 +6,7 @@ import Contact from '@/components/Contact'
 import Projects from '@/components/projects'
 
 import Hero from '@/components/Hero/Hero'
+import Events from '@/components/Events/Events'
 import Members from '@/components/Members/Members'
 export const metadata: Metadata = {
   title: 'Central Website',
@@ -26,6 +27,7 @@ export default function RootLayout({
         {children}
         </main>
         <Hero />
+        <Events />
         <Members/>
         <Projects/>
         <Contact/>

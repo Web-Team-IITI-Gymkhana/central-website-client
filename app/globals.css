@@ -5,6 +5,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .debug {
+    border: 1px dashed red;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
