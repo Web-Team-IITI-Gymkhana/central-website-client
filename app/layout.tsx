@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
+import Projects from '@/components/projects'
 
 import Hero from '@/components/Hero/Hero'
 import Members from '@/components/Members/Members'
@@ -26,6 +27,7 @@ export default function RootLayout({
         </main>
         <Hero />
         <Members/>
+        <Projects/>
         <Contact/>
         <Footer />
       </body>

@@ -8,7 +8,7 @@ const contact = () => {
   const [address, setAddress] = useState('Indian Institute of Technology, Simrol, Indore, 452020')
   return (
     <>
-      <div id='container' className=' flex flex-row flex-wrap  bg-[#F6F6F6] mt-8 ' >
+      <div id='container' className=' flex flex-row flex-wrap  bg-[#F6F6F6]  ' >
 
         <div id='contact' className='mt-10 ml-[4rem]  h-12 px-6 py-1.5 bg-white font-[Inter] text-3xl font-bold  rounded-3xl shadow-md max-[360px]:text-2xl ' >
           Contact Us
