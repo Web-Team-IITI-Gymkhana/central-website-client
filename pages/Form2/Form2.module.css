@@ -1,0 +1,211 @@
+.bottomButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    margin-top: 40px;
+    background-color:#0b2447;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.bottomButton:hover {
+    background-color:#0b2447;
+}
+
+
+.custombutton {
+    padding: 10px 20px;
+    background-color:#0b2447;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.custombutton:hover {
+    background-color:#0b2447;
+}
+.uploadsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.previewimage {
+    width: 280px;
+    height: auto;
+    background: #eee;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    columns: 280px 1;
+    border: 1px solid black;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    width: 100%;
+    background: url("https://example.com/your-image-placeholder.jpg"); /* Add your placeholder image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.uploadarea {
+    width: 40vw;
+    height: auto;
+    margin: auto;
+}
+.inputlabel{
+    display: block;
+    margin-top: 20px;
+}
+.h1{
+    font-weight: bolder;
+    font-size: 32px;
+    padding-top: 50px;
+}
+/* label {
+    display: block;
+    margin-top: 20px;
+}
+
+
+a {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    background: #eee;
+}
+
+
+
+input[type="file"] {
+    display: none;
+} */
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #edf1d6;
+    height: auto;
+    min-height: 100vh;
+}
+.inputImage{
+    display: none;
+}
+.inputImage2{
+    display: none;
+}
+.inputlabel {
+    height: 100px;
+    width: 280px;
+    background: #0b2447;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+
+.inputlabel::after {
+    content: "";
+    
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 5px;
+}
+
+.inputlabel::before {
+    content: "";
+    border-top: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 45px;
+}
+.uploadsection {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 1000px; /* Adjust the width as needed */
+margin-top: 20px;
+}
+
+.previewimage {
+width: 480px; /* Adjust the width as needed */
+height: 300px;
+background: #eee;
+border-radius: 0 0 10px 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+columns: 380px 1;
+border: 1px solid black;
+}
+
+.inputlabel {
+height: 100px;
+width: 480px; /* Adjust the width as needed */
+background: #0b2447;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px 10px 0 0;
+font-weight: 600;
+text-transform: uppercase;
+color: white;
+letter-spacing: 2px;
+border: 1px solid black;
+}
+.buttoncontainer {
+display: flex;
+justify-content: flex-end; /* Align buttons to the end */
+margin: 20px auto;
+gap: 40px;
+}

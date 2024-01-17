@@ -8,6 +8,7 @@ const Navbar = () => {
       {name:"EVENTS",link:"/"},
       {name:"MEMBERS",link:"/"},
       {name:"CONTACT",link:"/"},
+      
     ];
     let [open, setOpen] =useState(true);
 

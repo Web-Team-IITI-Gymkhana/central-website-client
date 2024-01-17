@@ -1,0 +1,157 @@
+.body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .h1{
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 50px;
+}
+  .abackground {
+    background: url('https://images.pexels.com/photos/1095624/pexels-photo-1095624.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260')
+      center top no-repeat #252746;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .backgroundtexture {
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0f0140e6),
+      to(rgba(255, 214, 117, 0.9))
+    );
+    background: linear-gradient(to top, #0f0140e6, rgba(255, 214, 117, 0.9));
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .carousel {
+    width: 100%;
+    overflow-x: scroll;
+    padding: 30px;
+    padding-top: 8px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .carouselcontainer {
+    white-space: nowrap;
+    margin: 70px 0px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .categoriestitle {
+   color: rgb(77, 55, 102);
+    font-size: 28px;
+    position: absolute;
+    padding-left: 30px;
+  }
+  
+  .carouselitem {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #95bcd6;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 70px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: 1000ms all;
+    transition: 1000ms all;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+    position: relative;
+  }
+  
+  .carouselitem:hover ~ .carouselitem {
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+  
+  .carouselcontainer:hover .carouselitem {
+    opacity: 0.3;
+  }
+  
+  .carouselcontainer:hover .carouselitem:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .carouselitemimg {
+    width: 400px;
+    height: 400px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .carouselitemdetails {
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.9)),
+      to(rgba(0, 0, 0, 0))
+    );
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    font-size: 10px;
+    opacity: 0;
+    -webkit-transition: 450ms opacity;
+    transition: 450ms opacity;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* .carouselitemdetails:hover {
+    opacity: 1;
+  } */
+  
+  .carouselitemdetails span {
+    /* width: 10px;
+    height: 10px; */
+    font-size: 0.9rem;
+    color: #2ecc71;
+    /* background-color: white; */
+  }
+  
+  .carouselitemdetails .controls {
+    padding-top: 180px;
+  }
+  
+  .carouselitemdetails .carouselitemdetails--title,
+  .carouselitemdetails--subtitle {
+    color: #fff;
+    margin: 5px 0;
+  }
+  /* Add this to your existing styles */
+  .spacebelowcontrols {
+      height: 300px; /* Adjust the height as needed */
+  }

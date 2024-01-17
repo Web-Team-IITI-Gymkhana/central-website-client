@@ -1,0 +1,9 @@
+
+.custom-navy-blue {
+	background-color: navy;
+	color: white;
+	height:50px;
+	text-transform:uppercase ;
+	margin-bottom: 10px;
+	/* Add any other styles you need */
+  }
